@@ -1,5 +1,5 @@
 # ElegantPJT
-Angular Project with Image Slide with Angular & CSS animations
+Angular Project with Image Slide with CSS animations
 
 # Preview
 ![image](https://user-images.githubusercontent.com/32070957/118768565-2048c580-b8ba-11eb-96a6-d5584a058ed9.png)
