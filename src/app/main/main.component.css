@@ -1,0 +1,79 @@
+.container{
+  display: flex !important;
+  /* width: max-content; */
+  overflow-x: hidden;
+  height: 100vh;
+  flex-direction: column;
+}
+.top{
+  height: 50px;
+  color: #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  letter-spacing: 1.5px;
+  padding: 0 10px;
+}
+.back{
+  font-size: 30px;
+  width: 20px;
+  align-items: center;
+  line-height: 20px;
+}
+.forward{
+  font-size: 40px;
+  width: 20px;
+}
+.arrow{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+.arrow>span{
+  color: #aaa;
+  font-size: 50px;
+  margin: 0 10px 0 10px;
+  padding: 0;
+  line-height: 50px;
+  z-index: 3;
+}
+.arrow>span:hover{
+  cursor: pointer;
+}
+.imagelist{
+  height: 300px;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #777;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+.unselect{
+  visibility: hidden;
+  height: 0;
+}
+.placer{
+  width: 100%;
+  margin-top: -40px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dot{
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 100%;
+  margin: 0 5px;
+  opacity: 0.5;
+}
+.selected{
+  background-color: #222;
+}
+.arrowEnd{
+  visibility: hidden;
+}

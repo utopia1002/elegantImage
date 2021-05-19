@@ -1,0 +1,23 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h2{
+  color: #eee;
+  font-weight: 300;
+  letter-spacing: .7rem;
+}
+button{
+  margin-top: 30px;
+  padding: 0 10px;
+  display: block;
+  background-color: #111;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  color: #eee;
+}
